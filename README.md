@@ -10,22 +10,10 @@ Contact: chessnut@outlook.com.
 
 Program: JARVIS.
 
-Backend code: https://github.com/mallochine/jarvis2-svr
-
-JARVIS 2.0
+JARVIS 4.0
 ----------
 
-EDIT: I recently added a whole bunch of new functionality, but I realized that
-people really liked the original version of JARVIS 2, which kept things
-extremely simple -- just add a bookmark, and \<boom\>, you're done.
-So I reverted JARVIS 2 to its original version, and put all the new
-functionality in JARVIS 3.
-
-What's new in JARVIS 2.0 is filesystem navigation through _user-input_,
-instead of a machine trying to learn how the user behaves. As it turns out, it's a
-very natural habit for users to create bookmarks, while it is very _unnatural_ to wait
-for a machine to catch up to you. JARVIS 2.0 is a prototype for this "naturalness"
-thesis.
+Simply "j add" to create a bookmark for the current working directory, or "j add <alias>" to create an alias for a command.
 
 
 Installation
