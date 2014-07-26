@@ -18,7 +18,7 @@ Simply "j add" to create a bookmark for the current working directory, or "j add
 
 Installation
 -------------
-Download the whole git repo (git clone https://github.com/mallochine/jarvis2.git).
+Download the whole git repo (git clone https://github.com/mallochine/jarvis2).
 Run the command that corresponds to your shell:
 
 - make bash 
