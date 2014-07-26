@@ -10,6 +10,8 @@ Contact: chessnut@outlook.com.
 
 Program: JARVIS.
 
+Description: Significantly ease the creating and deleting of aliases.
+
 JARVIS 4.0
 ----------
 
@@ -145,6 +147,6 @@ Commands
 We would like help with...
 ---------------------------
 - Updating our wiki: https://github.com/mallochine/jarvis2/wiki/jrc---Documentation
-- Getting JARVIS2 into the packagement systems of various Linux distributions,
+- Getting JARVIS4 into the packagement systems of various Linux distributions,
 such as apt-get (ubuntu), pacman (archlinux), and more!
-- Any suggestions to make jarvis2 even simpler.
+- Any helpful suggestions!
