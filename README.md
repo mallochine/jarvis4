@@ -13,7 +13,7 @@ Program: JARVIS.
 JARVIS 4.0
 ----------
 
-Simply "j add" to create a bookmark for the current working directory, or "j add <alias>" to create an alias for a command.
+Simply "j add" to create a bookmark for the current working directory, or "j add \<alias\>" to create an alias for a command.
 
 
 Installation
@@ -39,15 +39,6 @@ echo . ~/.jarvis_config/jarvis >> ~/.bashrc;
 echo "Restart your shell"
 Restart your shell
 ```
-
-Getting Started
------------------
-
-There are only a few commands you need to know in order to get started.
-
-Use the "j add" to create a bookmark for the directory you are currently in.
-
-Use thE "j add <alias>" to create an alias for a command.
 
 Commands
 ----------
