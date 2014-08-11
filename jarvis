@@ -92,17 +92,12 @@ function _jarvis_delete {
 }
 
 function _jarvis_update {
-  # TODO: with the new version, this update is broken now.
-  return
+  local src_url
+  src_url=https://raw.githubusercontent.com/mallochine/jarvis4/master
 
-  # TODO: Fix this.
-  #
-  #local src_url
-  #
   #src_url='https://github.com/mallochine/jarvis2/raw/master'
-  #wget -r -q "$src_url/.jrc" -O "$jarvis_home/.jrc"
-  #. "$jarvis_home/.jrc"
-  #echo "Updated."
+  wget -r -q "$src_url/jarvis" -O "$jarvis_home/.jarvis_config/jarvis"
+  echo "Updated."
 }
 
 # allow $EDITOR if set
@@ -124,6 +119,7 @@ function _jarvis_bootup {
 
 function _jarvis_default {
   echo "cd $PWD && pwd && ls" > "$jarvis_home/.jarvis_config/default"
+  echo "Changed default to $PWD."
 }
 
 function _jarvis_goto_default {
