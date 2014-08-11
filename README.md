@@ -27,7 +27,7 @@ Run the command that corresponds to your shell:
 - make zsh 
 
 ```bash
-]$ git clone https://github.com/mallochine/jarvis4
+$ git clone https://github.com/mallochine/jarvis4
 Cloning into 'jarvis4'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (4/4), done.
