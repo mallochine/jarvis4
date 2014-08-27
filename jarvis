@@ -55,7 +55,7 @@ function _jarvis_add {
 
   if [[ -z "$cur_alias" ]]
   then
-    cmd="cd ${target:-$PWD} && pwd && ls"
+    cmd="cd ${target:-$PWD}"
     echo -e "Type an alias for \"${green}${cmd}${endColor}\", or ^C to quit: "
     read cur_alias
   fi
@@ -118,7 +118,7 @@ function _jarvis_bootup {
 }
 
 function _jarvis_default {
-  echo "cd $PWD && pwd && ls" > "$jarvis_home/.jarvis_config/default"
+  echo "cd $PWD" > "$jarvis_home/.jarvis_config/default"
   echo "Changed default to $PWD."
 }
 
