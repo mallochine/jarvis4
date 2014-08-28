@@ -20,7 +20,7 @@ Simply "jarvis add" to create a bookmark for the current working directory, or "
 
 Installation
 -------------
-Download the whole git repo (git clone https://github.com/mallochine/jarvis2).
+Download the whole git repo (git clone https://github.com/mallochine/jarvis4).
 Run the command that corresponds to your shell:
 
 - make bash 
@@ -146,7 +146,7 @@ Commands
 
 We would like help with...
 ---------------------------
-- Updating our wiki: https://github.com/mallochine/jarvis2/wiki/jrc---Documentation
+- Updating our wiki: https://github.com/mallochine/jarvis4/wiki/jrc---Documentation
 - Getting JARVIS4 into the packagement systems of various Linux distributions,
 such as apt-get (ubuntu), pacman (archlinux), and more!
 - Any helpful suggestions!
