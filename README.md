@@ -1,6 +1,7 @@
 Acknowledgements
 ----------------
 - @jsks and Mr Green from ArchLinux for helping improve this code a lot!
+- @jacqt for helping format the output of "jarvis all"
 
 Meta Information
 -------------------
