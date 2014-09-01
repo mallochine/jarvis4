@@ -100,7 +100,6 @@ function _jarvis_update {
   local src_url
   src_url=https://raw.githubusercontent.com/mallochine/jarvis4/master
 
-  #src_url='https://github.com/mallochine/jarvis2/raw/master'
   wget -r -q "$src_url/jarvis" -O "$jarvis_home/.jarvis_config/jarvis"
   echo "Updated."
 }
