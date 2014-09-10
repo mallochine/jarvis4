@@ -47,7 +47,7 @@ function _jarvis_all {
                                                                    # remove extraneous info.
       sed s/=\"/\\t/g |                                            # convert =" to a tab character.
       sed "s/\"$//g" |                                             # delete the trailing quotation.
-      sed '/.*/ s/\(\w*\s\)\(.\{27\}\).*\(.\{50\}\)$/\1\2...\3/' | # truncates line.
+      sed '/.*/ s/\(\w*\s\)\(.\{27\}\).*\(.\{'`expr $COLUMNS - 52`'\}\)$/\1\2...\3/' | # truncates line.
       expand -t 20                                                 # align columns.
   echo -e "${endColor}\c"
 }
